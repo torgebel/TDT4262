@@ -86,7 +86,7 @@ int updateAudio() {
               aSin2.next() * volume +
               aSin3.next() * volume;
   asig >>= 3;
-  return (int) (asig) >> 8; // returning to range after multiplyeing with 8 bit value
+  return (int) (asig) >> 8; // returning to range after multiplying with 8 bit value
 }
 
 void loop() {
